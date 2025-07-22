@@ -126,7 +126,7 @@ background:#ededed;
 /*emTitleColor*/
 color:#ffffff;
 /*emTitleBGColor*/
-background-color:#021444;border-color:#dddddd;
+background-color:#0e1927;border-color:#dddddd;
 }
 .iDevice_inner{
 /*emColor*/
@@ -135,43 +135,39 @@ color:#494949;
 background-color:#ffffff;border-color:/*emBorderColor*/
 #dddddd;
 }
-.iDevice_header .toggle-idevice a{
-/*emIconColor*/
-background-image:url(_style_icons_white.png);
-}
 .iDeviceTitle{
-background-image:url(icon_star_white.png);
+background-image:url(icon_star.png);
 }
 .activityIdevice .iDeviceTitle{
-background-image:url(icon_assignment_white.png);
+background-image:url(icon_assignment.png);
 }
 .readingIdevice .iDeviceTitle{
-background-image:url(icon_unread_white.png);
+background-image:url(icon_unread.png);
 }
 .FileAttachIdeviceInc .iDeviceTitle{
-background-image:url(icon_download_white.png);
+background-image:url(icon_download.png);
 }
 .WikipediaIdevice .iDeviceTitle{
-background-image:url(icon_description_white.png);
+background-image:url(icon_description.png);
 }
 .ListaIdevice .iDeviceTitle,.QuizTestIdevice .iDeviceTitle,.MultichoiceIdevice .iDeviceTitle,.TrueFalseIdevice .iDeviceTitle,.MultiSelectIdevice .iDeviceTitle,.ClozeIdevice .iDeviceTitle{
-background-image:url(icon_question_white.png);
+background-image:url(icon_question.png);
 }
 .preknowledgeIdevice .iDeviceTitle{
-background-image:url(icon_announcement_white.png);
+background-image:url(icon_announcement.png);
 }
 .GalleryIdevice .iDeviceTitle{
-background-image:url(icon_media_white.png);
+background-image:url(icon_media.png);
 }
 .objectivesIdevice .iDeviceTitle{
-background-image:url(icon_info_white.png);
+background-image:url(icon_info.png);
 }
 .ReflectionIdevice .iDeviceTitle{
-background-image:url(icon_account_white.png);
+background-image:url(icon_account.png);
 }
 body{
 /*bodyColor*/
-color:#2e353f;
+color:#333333;
 /*fontSize*/
 font-size:95%;
 /*contentBGColor*/
@@ -179,7 +175,7 @@ background-color:#ffffff;
 }
 a{
 /*aColor*/
-color:#12bab7;
+color:#18ad8a;
 }
 #header,#emptyHeader,#nodeDecoration{
 height:auto!important;
@@ -188,7 +184,7 @@ height:250px;min-height:250px;
 /*headerBGColor*/
 background-color:#ffffff;
 /*headerBGURL*/
-background-image:url(cabex.png);
+background-image:url(Portada2024.png);
 /*headerBGRepeat*/
 background-repeat:no-repeat;
 /*headerBGPosition*/
@@ -200,17 +196,17 @@ position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px
 }
 #siteFooter{
 border:1px solid /*footerBorderColor*/
-#00daba;
+#bcbcbc;
 /*footerColor*/
-color:#f7f179;
+color:#ffffff;
 /*footerTextAlign*/
 text-align:center;
 /*footerBGColor*/
-background-color:#00daba;
+background-color:#616867;
 /*footerFontSize*/
 font-size:80%;
 }
 #siteFooter a{
 /*footerAColor*/
-color:#c5f6f7;
+color:#91eff2;
 }
