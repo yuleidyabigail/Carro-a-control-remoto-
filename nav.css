@@ -60,45 +60,212 @@ body{padding:0;text-align:center}
 	body #content{background:#FFF}
 	#headerContent{white-space:normal;text-overflow:normal;font-weight:bold}
 }
-/* eXeLearning Style Designer */#content{border-width:0 /*contentBorderWidth*/0px;border-color:/*contentBorderColor*/#00daba;/*pageWidth*/width:70%;/*wrapperShadowColor*/box-shadow:0 0 15px 0 #202d47;/*contentBGColor*/background-color:#ffffff;}
-#exe-client-search-text{/*searchBarBGColor*/background:#e6f5f7;/*searchBarTextColor*/color:#a2c8d6;border-color:#21b29f;}
-#exe-client-search-submit{/*searchBarButtonBGColor*/background:#21b29f;border-color:#21b29f;/*searchBarButtonTextColor*/color:#ffffff;}
-/*useNavigationIcons*//*whiteNavigationIcons*/.pagination a span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;}
-.pagination a,.pagination a:hover,.pagination a:focus{display:block;position:absolute;right:52px;width:32px;height:32px;padding:0;background:url(_style_icons_white.png) no-repeat 0 0;}
-.pagination .next,.pagination .next:hover,.pagination .next:focus{right:0;background-position:-50px 0;}
-.pagination .print-page,.pagination .print-page:hover,.pagination .print-page:focus{right:104px;background-position:-200px 0;}
-#topPagination{width:50%;min-width:400px;}
-#bottomPagination{height:72px;position:relative;overflow:hidden}
-#bottomPagination a{top:20px;right:72px;margin:0;}
-#bottomPagination .next{right:20px;}
-#nav-toggler a span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;}
-#nav-toggler a{display:block;width:32px;height:32px;padding:0;background:url(_style_icons_white.png) no-repeat -100px 0;}
-#nav-toggler a:hover{background:url(_style_icons_white.png) no-repeat -100px 0;}
-#nav-toggler .show-nav{background-position:-150px 0;}
-#nav-toggler .show-nav:hover{background-position:-150px 0;}
-.pagination a,#nav-toggler a{filter:alpha(opacity=70);opacity:.7;}
-.pagination a:hover,.pagination a:focus,#nav-toggler a:hover{filter:alpha(opacity=100);opacity:1;}
-.pagination .page-counter{position:absolute;line-height:32px;padding:0;right:156px;}
-#bottomPagination .page-counter{right:104px;}
-@media all and (max-width: 700px){#nav-toggler{height:32px;}
-#nav-toggler a{padding:0;width:32px;position:absolute;left:50%}
-#siteNav{border-top:1px solid #ddd;}
-.pagination .page-counter{width:300px;left:50%;right:auto;margin-left:-150px}
+/* eXeLearning Style Designer */
+#content{
+/*pageWidth*/
+width:80%;
+/*wrapperShadowColor*/
+box-shadow:0 0 15px 0 #0a0000;
+/*contentBGColor*/
+background-color:#ffffff;
 }
-@media all and (max-width: 400px){.pagination .page-counter{overflow:hidden;clip:rect(0,0,0,0);height:0;}
+#exe-client-search-text{
+/*searchBarBGColor*/
+background:#edfff5;
+/*searchBarTextColor*/
+color:#bababa;border-color:#18a399;
 }
-body{/*bodyBGColor*/background-color:#021444;/*bodyBGURL*/background-image:url(Recurso%203.png);/*bodyBGRepeat*/background-repeat:repeat;/*bodyBGPosition*/background-position:0 0;}
-#siteNav,.pagination a,#skipNav,#nav-toggler{/*navFontSize*/font-size:90%;}
-#siteNav,#siteNav a{/*navBGColor*/background-color:#ddf6ff;/*navAColor*/color:#396d8e;/*navBorderColor*/border-color:#a0cbdb;}
-@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav,#siteNav ul{background-color:#ddf6ff;border-color:#a0cbdb;}
-#siteNav li{background-color:#ddf6ff;}
+#exe-client-search-submit{
+/*searchBarButtonBGColor*/
+background:#18a399;border-color:#18a399;
+/*searchBarButtonTextColor*/
+color:#ffffff;
 }
-#siteNav a:hover,#siteNav a:focus,#siteNav a.active{/*navHoverBGColor*/background-color:#263f7f;/*navAHoverColor*/color:#ffffff;}
-@media screen and (min-width: 701px) and (max-width: 1015px){#siteNav li:hover,#siteNav li.sfhover{background-color:#263f7f;}
+/*useNavigationIcons*/
+/*whiteNavigationIcons*/
+.pagination a span{
+position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;
 }
-.pagination{border-color:#00daba;}
-#bottomPagination .page-counter{color:#f7f179;}
-#bottomPagination{background-color:#00daba;}
+.pagination a,.pagination a:hover,.pagination a:focus{
+display:block;position:absolute;right:52px;width:32px;height:32px;padding:0;background:url(_style_icons_white.png) no-repeat 0 0;
+}
+.pagination .next,.pagination .next:hover,.pagination .next:focus{
+right:0;background-position:-50px 0;
+}
+.pagination .print-page,.pagination .print-page:hover,.pagination .print-page:focus{
+right:104px;background-position:-200px 0;
+}
+#topPagination{
+width:50%;min-width:400px;
+}
+#bottomPagination{
+height:72px;position:relative;overflow:hidden
+}
+#bottomPagination a{
+top:20px;right:72px;margin:0;
+}
+#bottomPagination .next{
+right:20px;
+}
+#nav-toggler a span{
+position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0;
+}
+#nav-toggler a{
+display:block;width:32px;height:32px;padding:0;background:url(_style_icons_white.png) no-repeat -100px 0;
+}
+#nav-toggler a:hover{
+background:url(_style_icons_white.png) no-repeat -100px 0;
+}
+#nav-toggler .show-nav{
+background-position:-150px 0;
+}
+#nav-toggler .show-nav:hover{
+background-position:-150px 0;
+}
+.pagination a,#nav-toggler a{
+filter:alpha(opacity=70);opacity:.7;
+}
+.pagination a:hover,.pagination a:focus,#nav-toggler a:hover{
+filter:alpha(opacity=100);opacity:1;
+}
+.pagination .page-counter{
+position:absolute;line-height:32px;padding:0;right:156px;
+}
+#bottomPagination .page-counter{
+right:104px;
+}
+@media all and (max-width: 700px){
+#nav-toggler{
+height:32px;
+}
+#nav-toggler a{
+padding:0;width:32px;position:absolute;left:50%
+}
+#siteNav{
+border-top:1px solid #ddd;
+}
+.pagination .page-counter{
+width:300px;left:50%;right:auto;margin-left:-150px
+}
+}
+@media all and (max-width: 400px){
+.pagination .page-counter{
+overflow:hidden;clip:rect(0,0,0,0);height:0;
+}
+}
+body{
+/*bodyBGColor*/
+background-color:#ffffff;
+/*bodyBGURL*/
+background-image:url(Clase%203%20-%20Creaci%C3%B3n%20y%20uso%20de%20plantillas%20inteligentes%20para%20colaboraci%C3%B3n%20eficiente.png);
+/*bodyBGRepeat*/
+background-repeat:repeat;
+/*bodyBGPosition*/
+background-position:0 0;
+}
+#siteNav,.pagination a,#skipNav,#nav-toggler{
+/*navFontSize*/
+font-size:70%;
+}
+#siteNav,#siteNav a{
+/*navBGColor*/
+background-color:#ffffff;
+/*navAColor*/
+color:#00060a;
+/*navBorderColor*/
+border-color:#000000;
+}
+@media screen and (min-width: 701px) and (max-width: 1015px){
+#siteNav,#siteNav ul{
+background-color:#ffffff;border-color:#000000;
+}
+#siteNav li{
+background-color:#ffffff;
+}
+}
+#siteNav a:hover,#siteNav a:focus,#siteNav a.active{
+/*navHoverBGColor*/
+background-color:#ffffff;
+/*navAHoverColor*/
+color:#6164bf;
+}
+@media screen and (min-width: 701px) and (max-width: 1015px){
+#siteNav li:hover,#siteNav li.sfhover{
+background-color:#ffffff;
+}
+}
+.pagination{
+border-color:#bcbcbc;
+}
+#bottomPagination .page-counter{
+color:#ffffff;
+}
+#bottomPagination{
+background-color:#616867;
+}
+/*horizontalNavigation*/
+@media screen and (min-width:701px){
+#main,.no-nav #main{
+padding:10px 20px 0 20px;overflow:auto
+}
+#siteNav{
+display:table;margin-bottom:40px
+}
+#siteNav li:hover,#siteNav li.sfhover{
+background:#ffffff
+}
+#siteNav .other-section{
+display:block
+}
+#siteNav,#siteNav ul{
+float:left;width:100%;border-style:solid;border-width:1px 0;border-color:#000000;margin:0;line-height:1.2em;background:#ffffff
+}
+#siteNav ul ul{
+line-height:1.1em
+}
+#siteNav{
+margin-bottom:20px;position:relative;z-index:999;border-top:none;padding-right:0
+}
+#siteNav a{
+padding:.6em 15px;border:none
+}
+#siteNav li{
+float:left
+}
+#siteNav li ul{
+position:absolute;left:-999em;height:auto;width:14.4em;width:13.9em;border-width:0.25em
+}
+* html #siteNav li ul{
+width:13em
+}
+#siteNav li li{
+width:13.9em
+}
+#siteNav li ul a,#siteNav li ul ul a{
+padding:.45em 15px
+}
+#siteNav li ul ul{
+margin:-2.15em 0 0 14em
+}
+* html #siteNav li ul ul{
+margin-left:13em
+}
+#siteNav li:hover ul ul,#siteNav li:hover ul ul ul,#siteNav li.sfhover ul ul,#siteNav li.sfhover ul ul ul{
+left:-999em
+}
+#siteNav li:hover ul,#siteNav li li:hover ul,#siteNav li li li:hover ul,#siteNav li.sfhover ul,#siteNav li li.sfhover ul,#siteNav li li li.sfhover ul{
+left:auto
+}
+#siteNav .daddy{
+position:relative
+}
+#siteNav .daddy span{
+display:inline;position:absolute;right:1em;font-size:.8em
+}
+#toggle-nav{
+display:none!important
+}
+}
 /* eXeLearning Style Designer (custom CSS) */
 .pagination .print-page{
 display:none;
