@@ -5,9 +5,8 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>📚Conocimientos teóricos | Recurso estudiantes carro </title>
+<title>📚Conocimientos teóricos </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta name="author" content="Estudiantes PCEI" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
 <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
@@ -19,12 +18,12 @@
 <body class="exe-web-site" id="exe-node-18"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<header id="header" ><div id="headerContent">Recurso estudiantes carro</div></header>
+<section id="emptyHeader"></section>
 <nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">🏠Inicio</a></li>
    <li><a href="introduccin.html" class="no-ch">💻Introducción</a></li>
-   <li><a href="semana_1_conozco_el_esp32_y_lo_conecto.html" class="daddy">📆Semana 1: Conozco el ESP32 y lo conecto</a>
+   <li><a href="semana_1_conocimientos.html" class="daddy">📆Semana 1: Conocimientos</a>
    <ul class="other-section">
       <li><a href="conocimientos_tericos.html" class="no-ch">📚Conocimientos teóricos</a></li>
       <li><a href="actividades.html" class="no-ch">🧩Actividades</a></li>
@@ -48,7 +47,7 @@
       <li><a href="actividades2.html" class="no-ch">🧩Actividades</a></li>
    </ul>
    </li>
-   <li><a href="semana_5__app_inventor.html" class="daddy">📆Semana 5:  App Inventor</a>
+   <li><a href="semana_5_diseo_y_desarrollo_de_aplicaciones_mviles_mediante_app_inventor.html" class="daddy">📆Semana 5: Diseño y desarrollo de aplicaciones móviles mediante App Inventor</a>
    <ul class="other-section">
       <li><a href="conocimientos_tericos3.html" class="no-ch">📚Conocimientos teóricos</a></li>
       <li><a href="actividades3.html" class="no-ch">🧩Actividades</a></li>
@@ -65,30 +64,31 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">📚Conocimientos teóricos</h1></header>
-<article class="iDevice_wrapper textIdevice em_iDevice" id="id201">
-<div class="iDevice emphasis1" >
-<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">📚 Conocimientos teóricos</h1></header>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
+<article class="iDevice_wrapper textIdevice" id="id201">
+<div class="iDevice emphasis0" >
 <div id="ta201_160_2" class="block iDevice_content">
 <div class="exe-text"><h2><strong>¿Qué es un servo motor?</strong></h2>
-<p style="text-align: justify;">Un servo motor es un dispositivo electromecánico que puede girar o moverse con gran precisión a un ángulo determinado. A diferencia de un motor convencional, un servo incluye un sistema de control que le permite ubicarse en una posición exacta, detenerse y mantenerse allí, lo cual es esencial en aplicaciones que requieren control exacto del movimiento. Generalmente, un servo consta de un motor de corriente continua (DC), un sistema de engranajes, un potenciómetro y un circuito de control.</p>
+<p style="text-align: justify;">El servomotor es un actuador electromecánico que integra un motor DC, un tren de engranajes, un potenciómetro y un circuito de control en un sistema cerrado, permitiendo el posicionamiento angular preciso del eje en un rango típicamente de 0° a 180°, mediante señales de modulación por ancho de pulso (PWM), lo que posibilita su uso en aplicaciones que requieren control exacto de posición, velocidad y movildiad.</p>
 <p style="text-align: justify;"><img src="servo.png" width="200" height="200" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 <p style="text-align: justify;"><strong>Código de colores del Servo motor </strong></p>
-<p style="text-align: justify;">Un servo motor típico de 3 pines (como los modelos SG90 o MG90S) cuenta con tres cables, cada uno con un color específico que indica su función. Identificarlos correctamente es fundamental para evitar daños al componente y asegurar su correcto funcionamiento en proyectos de robótica o automatización.</p>
-<p style="text-align: justify;"><strong>Cable marrón o café – GND (Tierra)</strong><br />- Se conecta al polo negativo.<br />- Establece la referencia de voltaje.<br />- Es indispensable para el funcionamiento correcto del servo.<br /><strong>Cable rojo – VCC (Alimentación positiva)</strong><br />- Se conecta a 5V o 6V, según el modelo.<br />- Proporciona energía al motor interno.<br />- Puede alimentarse desde el Arduino o una fuente externa.<br /><strong> Cable naranja – Señal (PWM)</strong><br />- Se conecta a un pin digital del microcontrolador.<br />- Recibe una señal de control que determina el ángulo del eje (0° a 180°).<br />- Controlado con funciones como servo.write() en Arduino.</p>
-<p style="text-align: justify;"><strong>Para que nos sirve</strong></p>
-<p style="text-align: justify;">El servomotor se utiliza para controlar movimientos precisos en un rango limitado, lo que lo hace ideal para:</p>
-<ul style="text-align: justify;">
-<li>Robótica: mover brazos o extremidades de forma precisa.</li>
-<li>Automodelismo: controlar la dirección de autos o aviones.</li>
-<li>Automatización: abrir y cerrar válvulas o compuertas.</li>
-<li>Electrónica educativa y proyectos Arduino: enseñar conceptos de control de movimiento.</li>
-<li>Impresoras 3D y CNC: posicionamiento de piezas.</li>
+<p style="text-align: justify;">Los servomotores estándar de tres cables presentan la siguiente codificación:</p>
+<ul>
+<li style="text-align: justify;"><strong>Marrón (GND):</strong> Conexión a tierra para referencia de voltaje.</li>
+<li style="text-align: justify;"><strong>Rojo (VCC):</strong> Alimentación eléctrica, usualmente entre 5V y 6V, proveniente de la fuente o microcontrolador.</li>
+<li style="text-align: justify;"><strong>Naranja (Señal PWM):</strong> Entrada de control para definir el ángulo del eje mediante pulsos digitales</li>
 </ul>
-<p style="text-align: justify;">Gracias a su precisión y facilidad de uso, el servomotor es muy común en la educación y en proyectos de electrónica que requieren controlar movimientos angulares con exactitud.</p></div>
-</div>
-</div>
+<p><strong>Para que nos sirve un Servomotor </strong></p>
+<p style="text-align: justify;">El servomotor se emplea para el control angular de actuadores en robótica, automodelismo, sistemas automatizados, impresión 3D y educación, destacándose por su capacidad de mantener posiciones precisas bajo retroalimentación continua, esencial en proyectos que demandan exactitud y repetibilidad en el movimiento.</p>
+<p style="text-align: justify;"><strong>Pasos Teóricos para Hacer Mover un Servo Motor con ESP32 </strong></p>
+<ol>
+<li style="text-align: justify;"><strong>Selección del pin GPIO</strong><br />Se selecciona un pin GPIO capaz de generar señal PWM, como el GPIO 18 del ESP32, para enviar pulsos que controlan el ángulo del servomotor.</li>
+<li style="text-align: justify;"><strong>Conexión física del servomotor</strong><br />El cable rojo (VCC) se conecta a 5V, el marrón o negro (GND) a tierra, y el amarillo o naranja (señal) al GPIO 18 para recibir la señal PWM que posiciona el eje.</li>
+<li style="text-align: justify;"><strong>Configuración del programa</strong><br />Se incluye la librería Servo.h, se instancia un objeto servo y se asigna el pin de control mediante myServo.attach(18); en la función setup().</li>
+<li style="text-align: justify;"><strong>Control del movimiento angular</strong><br />El servomotor se posiciona usando myServo.write(ángulo);, donde el ángulo varía típicamente entre 0° y 180°, con pausas para permitir el movimiento.</li>
+<li style="text-align: justify;"><strong>Carga del programa</strong><br />Se conecta el ESP32 vía USB, se selecciona la placa y puerto en Arduino IDE, y se compila y sube el código; una vez cargado, el ESP32 ejecuta el control del servomotor según la programación.</li>
+<li style="text-align: justify;"><strong>Gráfica</strong></li>
+</ol>
+<p><strong><img src="sM.png" alt="" width="224" height="375" style="display: block; margin-left: auto; margin-right: auto;" /></strong><strong>Movimiento de un servomotor:</strong> <a href="https://wokwi.com/projects/437187016658285569 " title="Movimiento de un servomotor" target="_blank" rel="noopener">https://wokwi.com/projects/437187016658285569 </a></p></div>
 </div>
 </div>
 </article>
